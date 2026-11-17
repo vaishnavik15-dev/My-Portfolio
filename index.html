@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnavi K | Computer Science Student & Full-Stack Web Developer</title>
+  <meta name="description" content="Portfolio of Vaishnavi K, a Computer Science and Engineering student skilled in C++, Python, Java and React, with experience in full-stack web development and AI application security." />
+  <meta name="theme-color" content="#0a1628" />
+
+  <!-- Fonts and icons (both free) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Go to top">VK<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Vaishnavi K</h1>
+          <h2 class="role">Computer Science Student &middot; <span id="typed" aria-live="off">Full-Stack Web Developer</span></h2>
+          <p class="lead">
+            Computer Science and Engineering student with hands-on experience in full-stack web
+            development and AI application security. I build scalable, real-world applications
+            using C++, Python, Java and React.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#contact" class="btn btn-outline">Contact Me <i class="fa-solid fa-paper-plane"></i></a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <!-- LinkedIn comes from the resume -->
+            <a href="https://www.linkedin.com/in/vaishnavi-k-201340330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- [Add GitHub URL]: replace the "#" below with your GitHub profile link -->
+            <a href="https://github.com/vaishnavik15-dev" id="githubLink" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (add your URL)"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:vaishnavikannathasan24@gmail.com" aria-label="Send email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-ring">
+            <!-- [Add Profile Photo]: put your image in the project folder as "profile.jpg".
+                 If the file is missing, a placeholder is shown automatically. -->
+            <img src="profile.jpg" alt="Portrait of Vaishnavi K" id="profileImg" width="320" height="320" />
+            <div class="photo-placeholder" id="photoPlaceholder" hidden>
+              <i class="fa-solid fa-user"></i>
+              <span>[Add Profile Photo]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2>About Me</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Computer Science and Engineering student with practical experience in full-stack
+              web development and AI application security. I enjoy turning ideas into working
+              software, from responsive interfaces in React to Python logic that validates and
+              processes user input.
+            </p>
+            <p>
+              My strengths are web development, software testing and debugging. Recently I completed
+              a one-month internship building an OCR scanning application, and my paper on a
+              multi-layered security framework won Second Prize at an inter-college technical event.
+            </p>
+            <div class="chips">
+              <span class="chip"><i class="fa-solid fa-language"></i> English</span>
+              <span class="chip"><i class="fa-solid fa-language"></i> Tamil</span>
+              <span class="chip"><i class="fa-solid fa-language"></i> Hindi (basic)</span>
+            </div>
+          </div>
+          <div class="stats reveal">
+            <div class="stat"><strong>8.61</strong><span>Current CGPA</span></div>
+            <div class="stat"><strong>5</strong><span>Forage &amp; NPTEL certificates</span></div>
+            <div class="stat"><strong>2</strong><span>Featured projects</span></div>
+            <div class="stat"><strong>1</strong><span>Internship</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Academic background</p>
+          <h2>Education</h2>
+        </header>
+        <article class="card edu-card reveal">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <h3>Bachelor of Engineering &ndash; Computer Science and Engineering</h3>
+            <p class="muted">Sri Krishna College of Technology, Coimbatore</p>
+            <div class="meta">
+              <span><i class="fa-regular fa-calendar"></i> 2024 &ndash; 2028</span>
+              <span><i class="fa-solid fa-award"></i> CGPA: 8.61</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What I work with</p>
+          <h2>Technical Skills</h2>
+        </header>
+        <div class="skills-grid">
+          <div class="card skill-card reveal">
+            <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+            <ul class="badges">
+              <li>C++</li><li>Python</li><li>Java</li><li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <h3><i class="fa-solid fa-window-maximize"></i> Frontend Technologies</h3>
+            <ul class="badges">
+              <li>HTML</li><li>CSS</li><li>React</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <h3><i class="fa-solid fa-database"></i> Databases</h3>
+            <ul class="badges">
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools &amp; Platforms</h3>
+            <ul class="badges">
+              <li>Git</li><li>GitHub</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <h3><i class="fa-solid fa-bug"></i> Strengths</h3>
+            <ul class="badges">
+              <li>Web Development</li><li>Software Testing</li><li>Debugging</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Where I've worked</p>
+          <h2>Experience &amp; Internship</h2>
+        </header>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="dot" aria-hidden="true"></span>
+            <div class="card">
+              <div class="tl-head">
+                <div>
+                  <h3>OCR Scanning Application</h3>
+                  <p class="muted">Janactics India Pvt Ltd &middot; Internship</p>
+                </div>
+                <span class="date-pill"><i class="fa-regular fa-calendar"></i> May 2026 &middot; 1 month</span>
+              </div>
+              <ul class="bullets">
+                <li>Developed a basic web and mobile application for OCR scanning using React.</li>
+                <li>Built the interface for uploading and scanning documents and displaying extracted text.</li>
+              </ul>
+              <ul class="badges small"><li>React</li><li>OCR</li><li>Web</li><li>Mobile</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Things I've built</p>
+          <h2>Featured Projects</h2>
+        </header>
+        <div class="projects-grid">
+
+          <article class="card project-card reveal">
+            <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Multi-Layered Security Framework for Prompt Injection Attacks</h3>
+            <p class="muted">A framework that detects and mitigates prompt injection attacks in AI-based applications.</p>
+            <ul class="bullets">
+              <li>Built the responsive frontend of the framework.</li>
+              <li>Implemented Python backend logic that validates and processes user inputs to flag potentially malicious prompts.</li>
+              <li>Presented the work as a paper and won Second Prize at an inter-college technical event.</li>
+            </ul>
+            <ul class="badges small"><li>Python</li><li>Frontend</li><li>AI Security</li></ul>
+            <div class="project-links">
+              <!-- [Add GitHub URL] and [Add Live Demo URL]: replace the "#" values -->
+              <!-- <a href="#" class="link-btn" data-placeholder="true"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#" class="link-btn" data-placeholder="true"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a> -->
+            </div>
+          </article>
+
+          <article class="card project-card reveal">
+            <div class="project-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <h3>Banking Transaction Management System</h3>
+            <p class="muted">A full-stack application for managing bank accounts and transactions, with a Spring Boot backend and a React frontend.</p>
+            <ul class="bullets">
+              <li>Secure JWT authentication with account management, deposit and transfer features.</li>
+              <li>Enforced business rules such as a minimum balance of ₹500 and atomic fund transfers using @Transactional.</li>
+              <li>Built the React 18 + Vite frontend with a custom ledger-style interface.</li>
+              <li>Validated with JUnit and Jest test suites and met SonarQube quality gates.</li>
+            </ul>
+            <ul class="badges small"><li>Java</li><li>Spring Boot</li><li>React</li><li>JWT</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/vaishnavik15-dev/Banking-Transaction-Management-System" class="link-btn" data-placeholder="true"><i class="fa-brands fa-github"></i> Code</a>
+              <!-- <a href="#" class="link-btn" data-placeholder="true"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a> -->
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Recognition</p>
+          <h2>Certifications &amp; Achievements</h2>
+        </header>
+        <div class="cert-grid">
+          <div class="card achieve-card reveal">
+            <div class="trophy"><i class="fa-solid fa-trophy"></i></div>
+            <h3>Second Prize &ndash; Paper Presentation</h3>
+            <p>&ldquo;Multilayered Security Framework&rdquo;</p>
+            <p class="muted">Coimbatore Institute of Technology &middot; inter-college technical event</p>
+          </div>
+          <!-- <div class="card cert-card reveal">
+            <i class="fa-solid fa-certificate"></i>
+            <strong>10</strong>
+            <span>Coursera Certificates</span>
+          </div> -->
+          <div class="card cert-card reveal">
+            <i class="fa-solid fa-certificate"></i>
+            <strong>4</strong>
+            <span>NPTEL Certificates</span>
+          </div>
+          <div class="card cert-card reveal">
+            <i class="fa-solid fa-briefcase"></i>
+            <strong>1</strong>
+            <span>Forage Software Engineering Job Simulation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Contact Me</h2>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>I'm open to internships and entry-level opportunities. Feel free to reach out.</p>
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-envelope"></i> <a href="mailto:vaishnavikannathasan24@gmail.com">vaishnavikannathasan24@gmail.com</a></li>
+              <li><i class="fa-solid fa-phone"></i> <a href="tel:+917538806572">+91 7538806572</a></li>
+              <li><i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/vaishnavi-k-201340330" target="_blank" rel="noopener noreferrer">linkedin.com/in/vaishnavi-k-201340330</a></li>
+            </ul>
+          </div>
+
+          <form class="card contact-form reveal" id="contactForm" action="https://formspree.io/f/mwlooqww" method="POST">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="nameErr" />
+              <small class="error" id="nameErr" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailErr" />
+              <small class="error" id="emailErr" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required aria-describedby="subjectErr" />
+              <small class="error" id="subjectErr" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="messageErr"></textarea>
+              <small class="error" id="messageErr" role="alert"></small>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="note">
+              <i class="fa-solid fa-circle-info"></i>
+              Note: a static website cannot send email by itself. A backend or form service
+              (such as Formspree or Netlify Forms) is required for real delivery. Until one is
+              connected, submitting opens your email app with the message pre-filled.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Vaishnavi K. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/vaishnavi-k-201340330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:vaishnavikannathasan24@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
